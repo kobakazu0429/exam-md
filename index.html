@@ -3,6 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>定期試験なんか色々置き場</title>
+  <style>
+  table {
+    border-collapse: collapse;
+    border: solid 2px orange;/*表全体を線で囲う*/
+  }
+  table th, table td {
+    border: dashed 1px orange;
+    padding: 4px;
+  }
+</style>
 </head>
 <body>
   <h3>定期試験なんか色々置き場</h3>
@@ -19,5 +29,23 @@
       </ul>
     </li>
   </ul>
+
+  <h4>訂正一覧</h4>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>日付</th>
+        <th>ファイル名</th>
+        <th>訂正内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>2018年5月22日</th>
+        <th>2年_前期中間_電気電子計測.pdf</th>
+        <th>零位法、ホイールストンブリッジ→ホイートストンブリッジ</th>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
